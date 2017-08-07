@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+/*    padding: 0;*/
+}
+
+.zdjecie_1{
+    position: absolute;
+    width: 100%;
+}
+
+.zdjecie_2{
+    display: none;
+}
+
+.tekst{
+    position: relative;
+    color: white;
+}
+
+#tekst_1{
+    font-size: 
+}
+
+#tekst_2{
+    
+}
