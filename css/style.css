@@ -1,3 +1,6 @@
+html{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
 /*    padding: 0;*/
@@ -10,23 +13,23 @@ body{
 
 .zdjecie_2{
     display: none;
+    height: 100vw;
 }
 
-.tekst{
+#tekst{
     position: absolute;
     color: white;
     text-transform: uppercase;
-    top: 50%;
-    left: 0;
-    transform: translate(0, 50%);
-}
-
-#tekst_1{
+/*    top: 0;*/
+    vertical-align: middle;
+/*    left: 0;*/
+/*    transform: translateY(50);*/
     font-size: 10px;
     font-weight: bold;
+/*    text-align: justify;*/
 }
 
-#tekst_2{
+span{
     font-size: 15px;
     font-weight: bolder;
 }
