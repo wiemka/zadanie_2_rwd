@@ -4,7 +4,7 @@ body{
 }
 
 .zdjecie_1{
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 
@@ -13,14 +13,20 @@ body{
 }
 
 .tekst{
-    position: relative;
+    position: absolute;
     color: white;
+    text-transform: uppercase;
+    top: 50%;
+    left: 0;
+    transform: translate(0, 50%);
 }
 
 #tekst_1{
-    font-size: 
+    font-size: 10px;
+    font-weight: bold;
 }
 
 #tekst_2{
-    
+    font-size: 15px;
+    font-weight: bolder;
 }
