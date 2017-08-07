@@ -1,32 +1,15 @@
 body{
     margin: 0;
-/*    padding: 0;*/
 }
 
-.zdjecie_1{
-    position: relative;
-    width: 100%;
-}
-
-.zdjecie_2{
+#zdjecie_2{
     display: none;
 }
 
-.tekst{
-    position: absolute;
+#zdjecie_1{
+    background-image: url(../img/man-1.jpg);
+    background-size: cover;
     color: white;
-    text-transform: uppercase;
-    top: 50%;
-    left: 0;
-    transform: translate(0, 50%);
+/*    height: 350px;*/
 }
 
-#tekst_1{
-    font-size: 10px;
-    font-weight: bold;
-}
-
-#tekst_2{
-    font-size: 15px;
-    font-weight: bolder;
-}
